@@ -1,7 +1,7 @@
 import './App.css';
 import {useState} from "react";
 function App() {
-    const [myCounter,setMyCounter] = useState(0);
+    const [myCounter,setMyCounter] = useState(1);
 
     function handleClick() {
         setMyCounter(myCounter + 1);
